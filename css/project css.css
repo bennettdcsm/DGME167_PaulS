@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body{
+    margin:0;
+    padding:0;
+    font-size: 14px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header > img {
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+header .menu-box{
+    /* border: 1px solid #585858;
+    padding: 30px;
+    box-sizing: border-box; */
+    padding-top: 60px;
+    padding-right: 30px;
+
+}
+
+header .menu-item{
+    color: #585858;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 24px;
+    cursor: pointer;
+    
+}
+
+
+header .menu-item:hover{
+    color:#000;
+}
+
+ 
+main{
+    display: flex;
+    flex-grow: 1;
+}
+
+.left-box{
+    width: 40%;
+  
+	margin-top: 60px;
+	padding-right: 150px;
+    background-color: #fff;
+    
+}
+
+
+.left-box > img{
+    width: 50%;
+    margin-top:30px;
+}
+
+.right-box{
+    width: 60%;
+	height:500px;
+	margin-top:60px;
+    background-color: #fff;
+    padding-left: 150px;
+}
+
+.msg-box{
+    background-color: #FFF2CE;
+    border: 1px solid #dedede;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 25px;
+	font-size: 1rem
+}
+.styled-button{  
+  width: 150px;
+  height: 50px;
+  background-color: rgba(65, 192, 242, 0.5); /* 50% 투명도 적용 */
+  border: none;
+  color: white;
+  font-family: SF Pro, sans-serif;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+
+	
+footer{
+    background-color: #FFF2CE;
+    text-align: right;
+    padding: 32px;
+    margin-top: 120px;
+}
+
+a{
+    color: #585858;
+    text-decoration: none;
+}
